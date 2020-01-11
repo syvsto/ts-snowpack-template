@@ -1,15 +1,15 @@
 {
-  "name": "snowpack-test",
+  "name": "typescript-snowpack-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A template for applications written in TypeScript, using Snowpack as the bundling system",
+  "main": "app.js",
   "scripts": {
     "build": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline --watch",
 		"check": "tsc --noEmit"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Syver Storm-Furru",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
@@ -20,8 +20,5 @@
     "snowpack": "^1.0.2",
     "typescript": "^3.7.4"
   },
-  "dependencies": {
-    "htm": "^2.2.1",
-    "preact": "^10.2.1"
-  }
+  "dependencies": {}
 }
