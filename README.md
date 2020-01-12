@@ -5,7 +5,9 @@ Node modules for use in the browser. `TypeScript` has been installed
 and set up for use with `snowpack`.  Additionally, `babel` is included
 to flexibly transpile the TypeScript into Javascript.
 
-`npx serve` can be used to serve the files.
+`npx serve` can be used to serve the files. Refresh on file changes
+can be enabled by adding the `live.js` library into the `lib/` folder
+and uncommenting the import line in `index.html`.
 
 ## Commands
 
